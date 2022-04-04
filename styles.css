@@ -2,13 +2,9 @@
     border: 5px solid blue;
     height: 480px;
     width: 480px;
-    display: flex;
-}
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
 
-.box-col {
-    box-sizing: border-box;
-    border: 2px solid red;
-    flex: 1 1 200px;
 }
 
 .box {
@@ -16,12 +12,7 @@
     border-width: 1px;
     border-color: black;
     box-sizing: border-box;
-    width: 40px;
-    height: 40px;
-    flex: 1 1 auto;
-
 }
-
 
 
 
